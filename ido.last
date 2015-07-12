@@ -18,18 +18,18 @@
 ;; ----- ido-work-directory-list -----
 (
  "/Users/Cifer/.emacs.d/"
+ "/Users/Cifer/.emacs.d/snippets/elixir-mode/"
  "/Users/Cifer/nsb/emanon/lib/emanon/api/routers/"
  "/Users/Cifer/nsb/emanon/"
- "/Users/Cifer/.emacs.d/snippets/elixir-mode/"
  "/Users/Cifer/development/OTP/meta/"
 )
 
 ;; ----- ido-work-file-list -----
 (
  "init.el"
+ "arrow"
  "auth.ex"
  "mix.exs"
- "arrow"
  "puts"
  "pipe"
  "ii"
@@ -40,11 +40,11 @@
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/Cifer/.emacs.d/" (21922 1931 0 0) "snippets/" "projectile-bookmarks.eld" "init.el~" "init.el" "ido.last" "elpa/" "bookmarks" "auto-save-list/" "../" "./")
+ ("/Users/Cifer/.emacs.d/" (21922 6713 0 0) "snippets/" "projectile-bookmarks.eld" "init.el~" "init.el" "ido.last" "elpa/" "bookmarks" "auto-save-list/" ".git/" "../" "./")
 
- ("/Users/Cifer/nsb/emanon/lib/emanon/api/routers/" (21922 1808 0 0) "users.ex" "users/" "suggestion.ex" "settings.ex" "search.ex" "oauth.ex" "oauth/" "jobs.ex" "job_feeds.ex" "auth.ex" "../" "./")
+ ("/Users/Cifer/" (21922 6404 0 0) "test.exs" "python/" "Public/" "Pictures/" "nsbdata/" "nsb/" "ndb/" "Music/" "Movies/" "maru_swagger/" "maru/" "Library/" "jq2.js" "global_phone/" "exm/" "enigma/" "elm-stuff/" "elm-package.json" "Dropbox/" "Downloads/" "Documents/" "development/" "Desktop/" "BROWSE" "bin/" "Applications/" ".zshrc~" ".zshrc-e" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Cifer’s MacBook Air-5.0.8" ".zcompdump-Cifer’s MacBook Air-5.0.5" ".WebStorm9/" ".WebStorm10/" ".vimrc" ".viminfo" ".vim/" ".v8flags.3.28.73.Cifer.json" ".Trash/" ".subversion/" ".ssh/" ".spacemacs" ".smex-items" ".RubyMine70/" ".rbenv/" ".Rapp.history" ".pry_history" ".profile" ".oh-my-zsh/" ".nvm/" ".nvimlog" ".nviminfo" ".npm/" ".node-gyp/" ".mongorc.js" ".mkshrc" ".mix/" ".mitmproxy/" ".local/" ".lesshst" ".irb-history" ".iex.exs" ".ideavimrc" ".IdeaIC14/" ".hgignore_global" ".hex/" ".hammerspoon/" ".gitignore_global" ".gitconfig" ".ghci" ".ghc/" ".gemrc" ".gem/" ".erlang.cookie" ".emacs~" ".emacs.d/" ".elm/" ".DS_Store" ".dropbox/" ".dialyxir_core_17_1.0.4.plt" ".dbshell" ".config/" ".coffee_history" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".appCode31/" "../" "./")
 
- ("/Users/Cifer/" (21922 1919 0 0) "test.exs" "python/" "Public/" "Pictures/" "nsbdata/" "nsb/" "ndb/" "Music/" "Movies/" "maru_swagger/" "maru/" "Library/" "jq2.js" "global_phone/" "exm/" "enigma/" "elm-stuff/" "elm-package.json" "Dropbox/" "Downloads/" "Documents/" "development/" "Desktop/" "BROWSE" "bin/" "Applications/" ".zshrc~" ".zshrc-e" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Cifer’s MacBook Air-5.0.8" ".zcompdump-Cifer’s MacBook Air-5.0.5" ".WebStorm9/" ".WebStorm10/" ".vimrc" ".viminfo" ".vim/" ".v8flags.3.28.73.Cifer.json" ".Trash/" ".subversion/" ".ssh/" ".spacemacs" ".smex-items" ".RubyMine70/" ".rbenv/" ".Rapp.history" ".pry_history" ".profile" ".oh-my-zsh/" ".nvm/" ".nvimlog" ".nviminfo" ".npm/" ".node-gyp/" ".mongorc.js" ".mkshrc" ".mix/" ".mitmproxy/" ".local/" ".lesshst" ".irb-history" ".iex.exs" ".ideavimrc" ".IdeaIC14/" ".hgignore_global" ".hex/" ".hammerspoon/" ".gitignore_global" ".gitconfig" ".ghci" ".ghc/" ".gemrc" ".gem/" ".erlang.cookie" ".emacs~" ".emacs.d/" ".elm/" ".DS_Store" ".dropbox/" ".dialyxir_core_17_1.0.4.plt" ".dbshell" ".config/" ".coffee_history" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".appCode31/" "../" "./")
+ ("/Users/Cifer/nsb/emanon/lib/emanon/api/routers/" (21922 3629 0 0) "users.ex" "users/" "suggestion.ex" "settings.ex" "search.ex" "oauth.ex" "oauth/" "jobs.ex" "job_feeds.ex" "auth.ex" "../" "./")
 
  ("/Users/Cifer/.emacs.d/snippets/elixir-mode/" (21922 348 0 0) "puts" "pipe" "ii" "arrow" ".yas-make-groups" "../" "./")
 
