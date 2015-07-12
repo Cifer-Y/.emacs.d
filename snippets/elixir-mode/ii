@@ -1,0 +1,5 @@
+# -*- mode: snippet; require-final-newline: nil -*-
+# name: IOinspect
+# key: ii
+# --
+IO.inspect

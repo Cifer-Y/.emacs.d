@@ -1,0 +1,1 @@
+("~/.emacs.d/snippets/elixir-mode/" "~/.emacs.d/" "~/.emacs.d/elpa/powerline-20150628.1957/" "~/nsb/emanon/" "~/.emacs.d/elpa/ace-jump-mode-20140616.115/" "~/.emacs.d/elpa/helm-projectile-20150709.1428/" "~/.emacs.d/elpa/helm-20150711.247/" "~/.emacs.d/elpa/helm-core-20150711.302/")
