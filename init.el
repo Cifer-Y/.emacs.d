@@ -89,3 +89,9 @@
 ;;path
 (when (memq window-system '(mac ns))
   (exec-path-from-shell-initialize))
+
+;;lua
+(require 'lua-mode)
+
+
+;(setq alchemist-goto-elixir-source-dir "/usr/local/Cellar/elixir/1.0.5/lib/elixir/ebin")
