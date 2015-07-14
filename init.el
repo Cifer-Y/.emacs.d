@@ -58,6 +58,7 @@
                     "\\(?:^\\|\\s-+\\)\\(?:do\\)")
                (set (make-variable-buffer-local 'ruby-end-check-statement-modifiers) nil)
                (ruby-end-mode +1)))
+;(setq alchemist-goto-elixir-source-dir "/usr/local/Cellar/elixir/1.0.5/lib/elixir/ebin")
 
 ;;smex
 (require 'smex)
@@ -93,5 +94,9 @@
 ;;lua
 (require 'lua-mode)
 
-
-;(setq alchemist-goto-elixir-source-dir "/usr/local/Cellar/elixir/1.0.5/lib/elixir/ebin")
+;;multiple
+(require 'multiple-cursors)
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
