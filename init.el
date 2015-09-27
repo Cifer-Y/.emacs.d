@@ -15,16 +15,16 @@
 (setq inhibit-startup-message t)
 ;; 去掉滚动栏
 (scroll-bar-mode 0)
-;;页宽 
+;;页宽
 (setq default-fill-column 90)
 ;;以空行结束
 (setq require-final-newline t)
-;;指针不要闪，我得眼睛花了 
-(blink-cursor-mode -1) 
+;;指针不要闪，我的眼睛花了
+(blink-cursor-mode -1)
 (transient-mark-mode 1)
-;;当指针到一个括号时，自动显示所匹配的另一个括号 
+;;当指针到一个括号时，自动显示所匹配的另一个括号
 (show-paren-mode 1)
-;高亮显示成对括号，但不来回弹跳
+;;高亮显示成对括号，但不来回弹跳
 (show-paren-mode t)
 (setq show-paren-style 'parentheses)
 ;;不生成临时文件
@@ -36,12 +36,9 @@
 (ido-mode 1)
 
 (setq package-archives
-      '(("gnu" . "http://elpa.gnu.org/packages/")
-	("marmalade" . "http://marmalade-repo.org/packages/")   
-	("melpa" . "http://melpa.milkbox.net/packages/")))
-
-;;theme
-(load-theme 'zenburn t)
+  '(("gnu" . "http://elpa.gnu.org/packages/")
+    ("marmalade" . "http://marmalade-repo.org/packages/")
+    ("melpa" . "http://melpa.org/packages/")))
 
 ;;helm
 ;;(require 'helm-config)
@@ -53,22 +50,21 @@
 (require 'ruby-end)
 (setq alchemist-project-compile-when-needed t)
 (add-to-list 'elixir-mode-hook
-             (defun auto-activate-ruby-end-mode-for-elixir-mode ()
-               (set (make-variable-buffer-local 'ruby-end-expand-keywords-before-re)
-                    "\\(?:^\\|\\s-+\\)\\(?:do\\)")
-               (set (make-variable-buffer-local 'ruby-end-check-statement-modifiers) nil)
-               (ruby-end-mode +1)))
-;(setq alchemist-goto-elixir-source-dir "/usr/local/Cellar/elixir/1.0.5/lib/elixir/ebin")
+  (defun auto-activate-ruby-end-mode-for-elixir-mode ()
+    (set (make-variable-buffer-local 'ruby-end-expand-keywords-before-re)
+    "\\(?:^\\|\\s-+\\)\\(?:do\\)")
+    (set (make-variable-buffer-local 'ruby-end-check-statement-modifiers) nil)
+       (ruby-end-mode +1)))
 
 ;;smex
-(require 'smex)
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
+;(require 'smex)
+;(global-set-key (kbd "M-x") 'smex)
+;(global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
+;(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 
 ;;yasnippet
-(yas-global-mode 1) 
+(yas-global-mode 1)
 (setq yas-snippet-dirs '("/Users/cifer/.emacs.d/snippets"))
 
 ;;projectile
@@ -85,7 +81,7 @@
 
 ;;powerline
 (require 'powerline)
-(powerline-default-theme)
+
 
 ;;path
 (when (memq window-system '(mac ns))
@@ -100,3 +96,41 @@
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+
+
+;;helm
+(require 'helm-config)
+(global-set-key (kbd "M-x") 'helm-M-x)
+(helm-mode 1)
+(helm-autoresize-mode 1)
+
+;;theme
+(load-theme 'base16-ocean-dark t)
+
+;; no tabs
+(setq-default indent-tabs-mode nil)
+
+;;blank-mode
+(require 'blank-mode)
+
+;;proxy
+(setq url-proxy-services '(("http" . "127.0.0.1:65432")))
+
+;;elm
+(require 'elm-mode)
+
+;; indention
+(highlight-indentation-mode)
+
+;; hide menu bar
+(menu-bar-mode -1)
+
+;;whitespace
+(global-whitespace-mode)
+
+;; slime setup
+(setq inferior-lisp-program "/usr/local/bin/sbcl")
+(require 'slime-autoloads)
+;注意这里加载的是 slime-autoloads，而不是 slime，要不然C-c C-c等很多功能都没有
+(slime-setup '(slime-fancy))
+;(slime-setup)

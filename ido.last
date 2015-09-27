@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/Cifer/development/cookbook/" . "geolocation_with_tasks/")
  ("/Users/Cifer/.emacs.d/snippets/" . "elixir-mode/")
  ("/Users/Cifer/.emacs.d/" . "snippets/")
  ("/Users/Cifer/nsb/emanon/lib/emanon/api/" . "routers/")
@@ -17,40 +18,57 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/Cifer/.hammerspoon/"
+ "/Users/Cifer/development/cookbook/geolocation_with_tasks/lib/"
+ "/Users/Cifer/exaction/profile_cache/lib/"
+ "/Users/Cifer/exaction/todo/lib/todo/"
  "/Users/Cifer/.emacs.d/"
- "/Users/Cifer/"
+ "/Users/Cifer/.emacs.d/snippets/elixir-mode/"
  "/Users/Cifer/nsb/emanon/lib/emanon/api/routers/"
  "/Users/Cifer/nsb/emanon/"
- "/Users/Cifer/.emacs.d/snippets/elixir-mode/"
  "/Users/Cifer/development/OTP/meta/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "init.lua"
- "undo.lua"
- "init.el"
- ".spacemacs"
- "auth.ex"
- "mix.exs"
- "arrow"
- "puts"
- "pipe"
- "ii"
+ "geolocator.ex"
+ "ets_page_cache.ex"
+ "process_registry.ex"
+ "cache.ex"
+ "database_worker.ex"
+ "supervisor.ex"
+ "system_supervisor.ex"
+ "server.ex"
+ "server_supervisor.ex"
+ "database.ex"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/Cifer/.emacs.d/" (21924 31901 0 0) "snippets/" "projectile-bookmarks.eld" "init.el~" "init.el" "ido.last" "elpa/" "bookmarks" "auto-save-list/" ".git/" "../" "./")
+ ("/Users/Cifer/vagrant/elixir/" (22010 38130 0 0) "Vagrantfile" ".vagrant/" ".#Vagrantfile" "../" "./")
 
- ("/Users/Cifer/" (21924 31904 0 0) "test.exs" "python/" "Public/" "Pictures/" "nsbdata/" "nsb/" "ndb/" "Music/" "Movies/" "maru_swagger/" "maru/" "Library/" "jq2.js" "global_phone/" "exm/" "enigma/" "elm-stuff/" "elm-package.json" "Dropbox/" "Downloads/" "Documents/" "development/" "Desktop/" "BROWSE" "bin/" "Applications/" ".zshrc~" ".zshrc-e" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Cifer’s MacBook Air-5.0.8" ".zcompdump-Cifer’s MacBook Air-5.0.5" ".WebStorm9/" ".WebStorm10/" ".vimrc" ".viminfo" ".vim/" ".v8flags.3.28.73.Cifer.json" ".Trash/" ".subversion/" ".ssh/" ".spacemacs" ".smex-items" ".RubyMine70/" ".rbenv/" ".Rapp.history" ".pry_history" ".profile" ".oh-my-zsh/" ".nvm/" ".nvimlog" ".nviminfo" ".npm/" ".node-gyp/" ".mongorc.js" ".mkshrc" ".mix/" ".mitmproxy/" ".local/" ".lesshst" ".irb-history" ".iex.exs" ".ideavimrc" ".IdeaIC14/" ".hgignore_global" ".hex/" ".hammerspoon/" ".gitignore_global" ".gitconfig" ".ghci" ".ghc/" ".gemrc" ".gem/" ".erlang.cookie" ".emacs~" ".emacs.d/" ".elm/" ".DS_Store" ".dropbox/" ".dialyxir_core_17_1.0.4.plt" ".dbshell" ".config/" ".coffee_history" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".appCode31/" ".#.spacemacs" "../" "./")
+ ("/Users/Cifer/vagrant/" (22000 65300 0 0) "Vagrantfile" ".vagrant/" ".#Vagrantfile" "#Vagrantfile#" "../" "./")
 
- ("/Users/Cifer/.hammerspoon/" (21923 40625 0 0) "undo.lua" "init.lua" ".git/" "../" "./")
+ ("/Users/Cifer/development/cookbook/geolocation_with_tasks/lib/" (21989 14333 0 0) "geolocation_with_tasks.ex" "../" "./")
 
- ("/Users/Cifer/nsb/emanon/" (21923 11844 0 0) "已测API.md" "test/" "rel/" "README.md" "mix.lock" "mix.exs" "lib/" "erl_crash.dump" "deps/" "config/" "api/" "_build/" ".gitignore" ".git/" "../" "./")
+ ("/Users/Cifer/development/cookbook/" (21989 14333 0 0) "message.ex" "geolocation_with_tasks/" "../" "./")
 
- ("/Users/Cifer/nsb/emanon/lib/emanon/api/routers/" (21922 6821 0 0) "users.ex" "users/" "suggestion.ex" "settings.ex" "search.ex" "oauth.ex" "oauth/" "jobs.ex" "job_feeds.ex" "auth.ex" "../" "./")
+ ("/Users/Cifer/development/cookbook/geolocation_with_tasks/" (21989 14611 0 0) "test/" "README.md" "mix.lock" "mix.exs" "lib/" "geo_db/" "deps/" "config/" "_build/" ".gitignore" "../" "./")
+
+ ("/Users/Cifer/development/cookbook/geolocation_with_tasks/config/" (21989 14725 0 0) "config.exs" "../" "./")
+
+ ("/Users/Cifer/development/elm/bingo/" (21985 41839 0 0) "style.css" "index.html" "elm.js" "elm-stuff/" "elm-package.json" "BingoUtils.elm" "bingo.js" "Bingo.elm" "../" "./")
+
+ ("/Users/Cifer/exaction/profile_cache/lib/" (21940 44337 0 0) "web_server.ex" "ets_page_cache.ex" "../" "./")
+
+ ("/Users/Cifer/exaction/todo/lib/todo/" (21940 42933 0 0) "system_supervisor.ex" "supervisor.ex" "server_supervisor.ex" "server.ex" "process_registry.ex" "pool_supervisor.ex" "list.ex" "database_worker.ex" "database.ex" "cache.ex" "../" "./")
+
+ ("/Users/Cifer/.emacs.d/" (21939 34868 0 0) "snippets/" "projectile.cache" "projectile-bookmarks.eld" "init.el~" "init.el" "ido.last" "elpa/" "bookmarks" "auto-save-list/" ".mc-lists.el" ".git/" "../" "./")
+
+ ("/Users/Cifer/" (21938 28931 0 0) "test.exs" "python/" "Public/" "Pictures/" "nsbdata/" "nsb/" "Music/" "Movies/" "maru_swagger/" "maru/" "Library/" "jq2.js" "exaction/" "enigma/" "elm-stuff/" "elm-package.json" "Dropbox/" "Downloads/" "Documents/" "development/" "Desktop/" "BROWSE" "bin/" "Applications/" ".zshrc~" ".zshrc-e" ".zshrc" ".zshenv" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-Cifer’s MacBook Air-5.0.8" ".zcompdump-Cifer’s MacBook Air-5.0.5" ".WebStorm9/" ".WebStorm10/" ".vimrc" ".viminfo" ".vim/" ".v8flags.3.28.73.Cifer.json" ".Trash/" ".subversion/" ".ssh/" ".spacemacs" ".smex-items" ".RubyMine70/" ".rnd" ".rbenv/" ".Rapp.history" ".pry_history" ".profile" ".oh-my-zsh/" ".nvm/" ".nvimlog" ".nviminfo" ".npm/" ".node-gyp/" ".mongorc.js" ".mkshrc" ".mix/" ".mitmproxy/" ".local/" ".lesshst" ".irb-history" ".iex.exs" ".ideavimrc" ".IdeaIC14/" ".hgignore_global" ".hex/" ".hammerspoon/" ".gitignore_global" ".gitconfig" ".ghci" ".ghc/" ".gemrc" ".gem/" ".erlang.cookie" ".emacs~" ".emacs.d/" ".elm/" ".DS_Store" ".dropbox/" ".dialyxir_core_17_1.0.4.plt" ".dbshell" ".config/" ".coffee_history" ".CFUserTextEncoding" ".cache/" ".bundle/" ".bashrc" ".bash_profile" ".bash_history" ".atom/" ".appCode31/" "#.spacemacs#" "../" "./")
+
+ ("/Users/Cifer/nsb/emanon/" (21932 39560 0 0) "已测API.md" "test/" "README.md" "mix.lock" "mix.exs" "lib/" "deps/" "config/" "api/" "_build/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/Cifer/nsb/emanon/lib/emanon/api/routers/" (21932 39376 0 0) "users.ex" "users/" "suggestion.ex" "settings.ex" "search.ex" "oauth.ex" "oauth/" "jobs.ex" "job_feeds.ex" "auth.ex" "../" "./")
 
  ("/Users/Cifer/.emacs.d/snippets/elixir-mode/" (21922 33667 0 0) "puts" "pipe" "ii" "arrow" ".yas-make-groups" "../" "./")
 
